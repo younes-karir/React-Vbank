@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React.js-Vbank/static/css/main.d7da34c1.css",
+    "main.js": "/React.js-Vbank/static/js/main.2ef2791a.js",
+    "static/media/Orange.mp4": "/React.js-Vbank/static/media/Orange.98b06290142e141a8723.mp4",
+    "static/media/Green.mp4": "/React.js-Vbank/static/media/Green.d48e218167a19525e9ae.mp4",
+    "static/media/Green-svg-1.svg": "/React.js-Vbank/static/media/Green-svg-1.8a93be5dbbafdb7ffff2bba160495c77.svg",
+    "static/media/Orange-svg-1.svg": "/React.js-Vbank/static/media/Orange-svg-1.5f152453275e04866d9fc568bb5dd883.svg",
+    "static/media/Green-svg-2.svg": "/React.js-Vbank/static/media/Green-svg-2.0d5eafcfa1b4a30e0bbdaeb28bff572e.svg",
+    "static/media/Orange-svg-2.svg": "/React.js-Vbank/static/media/Orange-svg-2.db4b964eaaf650f13bd110232ebf5eb4.svg",
+    "static/media/Green-svg-3.svg": "/React.js-Vbank/static/media/Green-svg-3.bc3759bc9eeb81aebae1f8fe593d2306.svg",
+    "static/media/Orange-svg-3.svg": "/React.js-Vbank/static/media/Orange-svg-3.195fbf1d78ebac0381a81fdd9569caa3.svg",
+    "index.html": "/React.js-Vbank/index.html",
+    "main.d7da34c1.css.map": "/React.js-Vbank/static/css/main.d7da34c1.css.map",
+    "main.2ef2791a.js.map": "/React.js-Vbank/static/js/main.2ef2791a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7da34c1.css",
+    "static/js/main.2ef2791a.js"
+  ]
+}

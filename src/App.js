@@ -1,23 +1,56 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/index';
+import Signin from './pages/Signin'
+import { ThemeProvider } from 'styled-components';
+import { useState } from 'react';
+
+import GreenTheme from './themes/Green';
+import OrangeTheme from './themes/Orange';
+import LoadingUI from './components/LoadingUI';
+import { Route, Routes} from 'react-router-dom'
+
+
+
 
 function App() {
+  const [theme, setTheme] = useState(GreenTheme);
+  const [isLoading, setIsLoading] = useState(false);
+
+
+  const changeTheme = () => {
+    setIsLoading(true);
+
+    setTheme((old) => {
+      if (old.id === 'G') {
+
+        return OrangeTheme;
+      }
+
+      else {
+        return GreenTheme;
+      }
+
+    });
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1400);
+  }
+
+
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={{ current: theme, onChange: changeTheme }} >
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          
+          <Route path='/signin' element={<Signin />}  />
+        </Routes>
+        <LoadingUI isLoading={isLoading} />
+      </ThemeProvider>
     </div>
   );
 }

@@ -16,7 +16,7 @@ const rotate = keyframes`
 
 
 export const LoadingContainer  = styled.div`
-    display: ${({isLoading}) => !isLoading ? 'none' : 'flex'};
+    display: ${props => !props.$isLoading ? 'none' : 'flex'};
     height: 100vh;
     width: 100vw;
     background: #010101;

@@ -38,7 +38,7 @@ const NavBar = ({ onopen }) => {
 
     return (
         <Fragment>
-            <Nav scrollnav={scrollNav}>
+            <Nav $scrollnav={scrollNav}>
                 <NavBarContainer>
                     <NavLogo to="/" onClick={ToggleToTop} >
                         <FirstLetter>V</FirstLetter>Bank

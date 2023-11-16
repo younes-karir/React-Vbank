@@ -22,16 +22,16 @@ const InfoSection = ({
 
 
     return (
-        <InforContainer id={id} lightBg={lightBg}>
+        <InforContainer id={id} $lightBg={lightBg}>
             <InfoWrapper>
-                <InfoRow imgStart={imgStart}>
+                <InfoRow $imgStart={imgStart}>
                     <InfoColumn1>
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headLine}</Heading>
-                            <Subtitle darkText={darkText}>{description}</Subtitle>
+                            <Heading $lightText={lightText}>{headLine}</Heading>
+                            <Subtitle $darkText={darkText}>{description}</Subtitle>
                             <BtnWrapper>
-                                <ButtonSection HoverBtn={HoverBtn} primary={primary} dark={dark} to="home">{buttonLabel}</ButtonSection>
+                                <ButtonSection $HoverBtn={HoverBtn} $primary={primary} $dark={dark} to="home">{buttonLabel}</ButtonSection>
                             </BtnWrapper>
                         </TextWrapper>
                     </InfoColumn1>

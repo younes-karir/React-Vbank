@@ -4,7 +4,7 @@ import { Button } from '../ButtonElements';
 
 export const InforContainer = styled.div`
     color:#fff;
-    background: ${({ lightBg }) => lightBg ? '#f9f9f9' : '#010606'};
+    background: ${props => props.$lightBg ? '#f9f9f9' : '#010606'};
 
 
     @media screen and (max-width:768) {
@@ -31,10 +31,10 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(aut,1fr);
     align-items: center;
-    grid-template-areas: ${({ imgStart }) => imgStart ? `'col1 col2'` : `'col2 col1'`};
+    grid-template-areas: ${props => props.$imgStart ? `'col1 col2'` : `'col2 col1'`};
 
     @media screen and (max-width:768px) {
-        grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col2' 'col1'`}; 
+        grid-template-areas: ${props => props.$imgStart ? `'col1' 'col2'` : `'col2' 'col1'`}; 
     }
 `;
 
@@ -86,7 +86,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color:${({ lightText }) => lightText ? '#f7f8fa' : '#010606'};
+    color:${props => props.$lightText ? '#f7f8fa' : '#010606'};
 
 
     @media screen and (max-width:480px){
@@ -99,7 +99,7 @@ export const Subtitle = styled.p`
     margin-top: 35px;
     font-size: 18px;
     line-height: 24px;
-    color:${({ darkText }) => darkText ? '#010606' : '#fff'};
+    color:${props => props.$darkText ? '#010606' : '#fff'};
 
 `;
 
@@ -130,7 +130,7 @@ export const ButtonSection = styled(Button)`
     background: ${({ theme }) => theme.current.color};
     &:hover{
         box-shadow: none;
-        background: ${({ HoverBtn }) => HoverBtn ? 'white' : 'black'};
+        background: ${props => props.$HoverBtn ? 'white' : 'black'};
     }
 `;
 

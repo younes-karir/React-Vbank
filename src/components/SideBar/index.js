@@ -9,9 +9,9 @@ import {
     SideBarContainer
 } from "./SideBarElements";
 
-const SideBar = ({ isOpen, onClose }) => {
+const SideBar = ({ isopen, onClose }) => {
     return (
-        <SideBarContainer isopen={isOpen} onClick={onClose}>
+        <SideBarContainer $isopen={isopen} onClick={onClose}>
             <Icon onClick={onClose}>
                 <IconClose />
             </Icon>

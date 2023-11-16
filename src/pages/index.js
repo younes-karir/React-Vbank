@@ -25,9 +25,9 @@ const Home = () => {
 
     return (
         <>
-            <SideBar isOpen={SideBarIsOpen} onClose={SideBarCloseHAndler}/>
+            <SideBar isopen={SideBarIsOpen} onClose={SideBarCloseHAndler}/>
             <NavBar onopen = {SideBarOpenHAndler}/>
-            {/* <HeroSection /> */}
+            <HeroSection />
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
             <Services  />

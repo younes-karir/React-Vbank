@@ -25,7 +25,7 @@ export const HeroSection = (props) => {
                     next payment.
                 </HeroP>
                 <HeroBtnWrapper onMouseEnter={isHoverHandler} onMouseLeave={isHoverHandler} >
-                    <Button
+                    {/* <Button
                         smooth={true}
                         duration={800}
                         spy={true}
@@ -36,7 +36,7 @@ export const HeroSection = (props) => {
                         dark="true"
                     >
                         Get started {isHover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button> */}
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

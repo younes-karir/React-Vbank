@@ -44,11 +44,12 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={{ current: theme, onChange: changeTheme }} >
-        <Routes>
+        {/* <Routes basename="/test_repository">
           <Route path='/' exact element={<Home />} />
           
           <Route path='/signin' element={<Signin />}  />
-        </Routes>
+        </Routes> */}
+        <Home />
         <LoadingUI isLoading={isLoading} />
       </ThemeProvider>
     </div>

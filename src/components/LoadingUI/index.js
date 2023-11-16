@@ -2,7 +2,7 @@ import { Loading, LoadingContainer } from "./LoadingElements";
 
 const LoadingUI = ({isLoading}) => {
     return (
-        <LoadingContainer isLoading={isLoading}>
+        <LoadingContainer $isLoading={isLoading}>
             <Loading>
             </Loading>
         </LoadingContainer>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React.js-Vbank/static/css/main.d7da34c1.css",
-    "main.js": "/React.js-Vbank/static/js/main.ac873f8b.js",
+    "main.js": "/React.js-Vbank/static/js/main.6c33b5e9.js",
     "static/media/Orange.mp4": "/React.js-Vbank/static/media/Orange.98b06290142e141a8723.mp4",
     "static/media/Green.mp4": "/React.js-Vbank/static/media/Green.d48e218167a19525e9ae.mp4",
     "static/media/Green-svg-1.svg": "/React.js-Vbank/static/media/Green-svg-1.8a93be5dbbafdb7ffff2bba160495c77.svg",
@@ -12,10 +12,10 @@
     "static/media/Orange-svg-3.svg": "/React.js-Vbank/static/media/Orange-svg-3.195fbf1d78ebac0381a81fdd9569caa3.svg",
     "index.html": "/React.js-Vbank/index.html",
     "main.d7da34c1.css.map": "/React.js-Vbank/static/css/main.d7da34c1.css.map",
-    "main.ac873f8b.js.map": "/React.js-Vbank/static/js/main.ac873f8b.js.map"
+    "main.6c33b5e9.js.map": "/React.js-Vbank/static/js/main.6c33b5e9.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.ac873f8b.js"
+    "static/js/main.6c33b5e9.js"
   ]
 }

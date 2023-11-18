@@ -12,7 +12,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 
-    :before{
+    /* :before{
         content: '';
         position: absolute;
         top: 0;
@@ -28,11 +28,11 @@ export const HeroContainer = styled.div`
              transparent 100% 
             );
 
-        z-index: 2;
+        z-index: 2; 
 
 
 
-    }
+    }*/
 `;
 
 

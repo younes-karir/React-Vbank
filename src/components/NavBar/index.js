@@ -36,6 +36,7 @@ const NavBar = ({ onopen }) => {
         animateScroll.scrollToTop();
     }
 
+    
     return (
         <Fragment>
             <Nav $scrollnav={scrollNav}>

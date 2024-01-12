@@ -9,6 +9,8 @@ import GreenThree from '../../images/Green-svg-3.svg';
 import OrangeThree from '../../images/Orange-svg-3.svg';
 
 
+
+
 export const homeObjOne = {
     id:'about',
     lightBg:false,

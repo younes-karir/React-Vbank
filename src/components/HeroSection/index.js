@@ -37,6 +37,7 @@ export const HeroSection = (props) => {
                     >
                         Get started {isHover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
+                    
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

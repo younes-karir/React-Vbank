@@ -14,6 +14,7 @@ const ThemeIcon = () => {
             <ThemeIconB onClick={onClickHandler}/>
     
     )
+    
 }
 
 export default ThemeIcon;

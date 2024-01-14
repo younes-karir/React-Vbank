@@ -18,3 +18,17 @@ Welcome to Vbank, where innovation meets seamless banking. 🚀 Built with React
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/younes-karir/React.js-Vbank.git
+   
+2. **Install Dependencies:**
+   ```bash
+   cd Vbank
+   npm install
+   
+3. **Run the App:**
+   ```bash
+   npm start
+
+
+## Screenshots
+
+

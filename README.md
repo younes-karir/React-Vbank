@@ -28,7 +28,6 @@ Welcome to Vbank, where innovation meets seamless banking. 🚀 Built with React
    ```bash
    npm start
 
-
 ## Screenshots
 
 
